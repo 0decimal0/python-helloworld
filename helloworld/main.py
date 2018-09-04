@@ -5,5 +5,6 @@ def main(argv=None):
         argv = sys.argv
 
     print "Hello, world"
+    print "Revision no.1"
 
     return 0
