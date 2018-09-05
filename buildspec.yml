@@ -10,3 +10,8 @@ phases:
  post_build:
   commands:
     - printf "Build completed on $(date)"
+
+artifacts:
+  files:
+    - helloworld.py
+    
