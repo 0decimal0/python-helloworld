@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+ build:
+  commands:
+   - printf "build started on $(date) ...\n"
+   - printf "compiling the Python code ...\n"
+   - python helloworld.py
+
+ post_build:
+  commands:
+    - printf "Build completed on $(date)"
+
+artifacts:
+  files:
+    - helloworld.main.py
